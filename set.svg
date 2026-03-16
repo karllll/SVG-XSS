@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50">
+  <text id="out" x="10" y="30" font-size="14">not executed</text>
+  <rect id="r" x="10" y="35" width="50" height="10" fill="gold">
+    <set attributeName="onclick"
+         to="document.getElementById('out').textContent='executed: set+onclick';console.log('svg-exec-11');"
+         begin="0s"/>
+  </rect>
+</svg>

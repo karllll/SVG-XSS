@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50">
+  <text id="out" x="10" y="20" font-size="14">click the link</text>
+  <a href="javascript:document.getElementById('out').textContent='executed: href js uri';console.log('svg-exec-6: href js uri');">
+    <rect x="10" y="25" width="120" height="20" fill="teal"/>
+  </a>
+</svg>

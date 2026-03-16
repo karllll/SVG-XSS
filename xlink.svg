@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="200" height="50">
+  <text id="out" x="10" y="20" font-size="14">click the link</text>
+  <a xlink:href="javascript:document.getElementById('out').textContent='executed: xlink href';console.log('svg-exec-5: xlink href');">
+    <rect x="10" y="25" width="120" height="20" fill="purple"/>
+  </a>
+</svg>

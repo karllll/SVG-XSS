@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50">
+  <text id="out" x="10" y="30" font-size="14">not executed</text>
+  <rect x="10" y="35" width="50" height="10" fill="red">
+    <animate attributeName="width" from="50" to="100" dur="1s"
+      onbegin="document.getElementById('out').textContent='executed: onbegin animate';console.log('svg-exec-7: onbegin');"/>
+  </rect>
+</svg>

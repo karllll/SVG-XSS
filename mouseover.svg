@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50">
+  <text id="out" x="10" y="30" font-size="14">hover the box</text>
+  <rect x="120" y="10" width="70" height="30" fill="green"
+    onmouseover="document.getElementById('out').textContent='executed: onmouseover';console.log('svg-exec-3: onmouseover');"/>
+</svg>
